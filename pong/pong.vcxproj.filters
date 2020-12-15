@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\GameObj">
+      <UniqueIdentifier>{0966f71a-712c-42ee-a548-4e8b70c8cf8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\GamePart">
+      <UniqueIdentifier>{d9a4cfd9-9fb8-4cea-aedf-f8806659e041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\GamePart\States">
+      <UniqueIdentifier>{ed9df45f-bad3-4e2e-905e-3fc1e4e4f285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\option">
+      <UniqueIdentifier>{92c2c470-27e8-41fe-9b82-a465d455e785}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Resource Files\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBot.cpp">
+      <Filter>Resource Files\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Resource Files\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Resource Files\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>Resource Files\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="PingPong.cpp">
+      <Filter>Resource Files\GamePart</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Resource Files\GamePart\States</Filter>
+    </ClCompile>
+    <ClCompile Include="StateGame.cpp">
+      <Filter>Resource Files\GamePart\States</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMenu.cpp">
+      <Filter>Resource Files\GamePart\States</Filter>
+    </ClCompile>
+    <ClCompile Include="StateGameEnd.cpp">
+      <Filter>Resource Files\GamePart\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Bounds.cpp">
+      <Filter>Resource Files\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="game_options.cpp">
+      <Filter>Header Files\option</Filter>
+    </ClCompile>
+    <ClCompile Include="StateOptions.cpp">
+      <Filter>Resource Files\GamePart\States</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h">
+      <Filter>Resource Files\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBot.h">
+      <Filter>Resource Files\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Resource Files\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Resource Files\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>Resource Files\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="PingPong.h">
+      <Filter>Resource Files\GamePart</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Resource Files\GamePart\States</Filter>
+    </ClInclude>
+    <ClInclude Include="StateGame.h">
+      <Filter>Resource Files\GamePart\States</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMenu.h">
+      <Filter>Resource Files\GamePart\States</Filter>
+    </ClInclude>
+    <ClInclude Include="StateGameEnd.h">
+      <Filter>Resource Files\GamePart\States</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bounds.h">
+      <Filter>Resource Files\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="StateOptions.h">
+      <Filter>Resource Files\GamePart\States</Filter>
+    </ClInclude>
+    <ClInclude Include="game_options.h">
+      <Filter>Header Files\option</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
